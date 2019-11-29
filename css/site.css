@@ -18,23 +18,39 @@ body {
     margin-top: 0.25em;
 }
 
-.header .nav a {
+a {
     color: black;
     font-size: 1.5em;
     text-decoration: none;
     margin-left: 1em;
 }
 
-.header .nav a:hover {
+a span.title:hover {
     color: white;
 }
 
-table.big {
-    width: 100%;
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.5em;
 }
 
-table.big td {
+.item {
+    flex: 1;
     background-color: burlywood;
+    margin: 0.5em 0.5em 0 0;
+    padding: 1em;
+}
+
+.item a {
     text-align: center;
-    height: 10em;
+    font-size: 2em;
+}
+
+.item p {
+    font-size: 1.5em;
+}
+
+span.emo {
+    margin-left: 0.5em;
 }

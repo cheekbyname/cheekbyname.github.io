@@ -2,8 +2,20 @@ body {
     margin: 0;
     font-family: monospace;
     background-color: antiquewhite;
+}
+
+html {
     font-size: 12pt;
 }
+
+/* @media (min-width: 800px) {
+    html {
+        font-size: 12pt;
+    }
+    .item {
+        width: 50%;
+    }
+} */
 
 .header {
     background-color: coral;
@@ -15,9 +27,13 @@ body {
     margin-top: 0.25rem;
 }
 
+.header a {
+    font-size: 1.5rem;
+}
+
 a {
     color: black;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     text-decoration: none;
     margin-left: 1rem;
 }
@@ -28,9 +44,9 @@ header a:hover, .header a:hover {
 
 .container {
     margin-left: 0.5rem;
-    height: 100%;
-    align-items: stretch;
-    flex-wrap: wrap;
+    /* height: 100%; */
+    /* align-items: stretch; */
+    /* flex-wrap: wrap; */
 }
 
 .item {
@@ -38,7 +54,7 @@ header a:hover, .header a:hover {
     flex: 1;
     background-color: burlywood;
     margin: 0.5rem 0.5rem 0 0;
-    padding: 1em;
+    padding: 1rem;
 }
 
 .column {
@@ -53,11 +69,11 @@ header a:hover, .header a:hover {
 
 .item header {
     text-align: center;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
 }
 
 .item p {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     height: fit-content;
     flex-grow: 1;
 }
@@ -68,7 +84,7 @@ span.emo {
 
 .item .title {
     align-self: flex-start;
-    height: fit-content;
+    /* height: fit-content; */
 }
 
 .huge {

@@ -30,8 +30,6 @@ a span.title:hover {
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
     margin-left: 0.5em;
 }
 
@@ -42,6 +40,16 @@ a span.title:hover {
     padding: 1em;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
 .item a {
     text-align: center;
     font-size: 2em;
@@ -49,8 +57,14 @@ a span.title:hover {
 
 .item p {
     font-size: 1.5em;
+    height: fit-content;
 }
 
 span.emo {
     margin-left: 0.5em;
+}
+
+.item .title {
+    align-self: flex-start;
+    height: fit-content;
 }

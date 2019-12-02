@@ -31,9 +31,12 @@ a span.title:hover {
 
 .container {
     margin-left: 0.5em;
+    height: 100%;
+    align-items: stretch;
 }
 
 .item {
+    display: flex;
     flex: 1;
     background-color: burlywood;
     margin: 0.5em 0.5em 0 0;
@@ -50,14 +53,15 @@ a span.title:hover {
     flex-direction: row;
 }
 
-.item a {
+.item header {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .item p {
     font-size: 1.5em;
     height: fit-content;
+    flex-grow: 1;
 }
 
 span.emo {

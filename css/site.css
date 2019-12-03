@@ -38,7 +38,7 @@ a {
     margin-left: 1rem;
 }
 
-header a:hover, .header a:hover {
+.header a:hover {
     color: white;
 }
 
@@ -50,11 +50,20 @@ header a:hover, .header a:hover {
 }
 
 .item {
+    border-radius: 4px;
     display: flex;
     flex: 1;
     background-color: burlywood;
     margin: 0.5rem 0.5rem 0 0;
     padding: 1rem;
+    box-shadow: 4px 4px 4px grey;
+}
+
+.item:hover {
+    box-shadow: none;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px darkgoldenrod;
+    background-color: coral;
 }
 
 .column {
